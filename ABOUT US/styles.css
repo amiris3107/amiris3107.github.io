@@ -1,0 +1,21 @@
+nav {
+    background-color: none;
+    color: aliceblues;
+    position: sticky;
+}
+
+body { 
+    background-color:#ff8e00;
+}
+
+.TextSlider {
+    background-color: red;
+}
+
+#navbarNav {
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 3rem;
+}

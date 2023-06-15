@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!--bootstrap css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei    +Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap"    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>DANGA BIZ</title>
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--nav section start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/LOGO.png" alt="logo" width="35" height="35"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </li><li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Galery
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Feedbacks</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control px-2 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--nav section end-->
+    <!--carousell section start-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="assets/slider 1.jpeg" class="d-block w-100" alt="cermai">
+            <div class="carousel-caption">
+              <h1>BAHULU CERMAI</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, similique?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/slider 2.jpeg" class="d-block w-100" alt="apam salju">
+            <div class="carousel-caption">
+              <h1>APAM SALJU</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, similique?</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="assets/slider 3.jpg" class="d-block w-100" alt="kemboja">
+            <div class="carousel-caption">
+              <h1>BAHULU KEMBOJA</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, similique?.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!--carousell section end-->
+    <h1 class="Product" style="margin: 15px 0; color: aliceblue; justify-content: center; display: flex; text-shadow: 3px 3px black;"> PRODUCTS</h1>
+    <!--cards section start-->
+    <div class="card-container">  
+      <div class="card">
+        <div class="card-image">
+          <img src="assets/bahulu.svg" alt="bahulu">
+        </div>
+          <div class="card-description">
+            <p class="text-title"> CERMAI</p>
+            <p class="text-bdy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="assets/kemboja.svg" alt="bahulu">
+          </div>
+            <div class="card-description">
+              <p class="text-title"> KEMBOJA</p>
+              <p class="text-bdy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/bahulu.svg" alt="bahulu">
+            </div>
+              <div class="card-description">
+                <p class="text-title"> SALJU</p>
+                <p class="text-bdy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+    </div>
+    <!--cards section end-->
+    <!--about us section start-->
+    <div class="about">
+      <div class="row" style="background-color: aliceblue; display: flex; margin: 0 20px; border-radius: 60px; padding: 20px; display: flex;flex-wrap: wrap;">
+        <div class="col-5" style="margin: 30px 20px;">
+          <img src="assets/mixer.JPG" alt="mixer" class="mixer" width="500px" style="border-top-left-radius: 40px; border-bottom-left-radius: 40px;">
+        </div>
+        <div class="col-6" style="align-items: center; justify-content: center; margin-top: 40PX;">
+          <h1>ABOUT US</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aut consequuntur. Unde voluptas sint voluptatum accusantium ex impedit itaque cum et iste, incidunt ipsa, ducimus perspiciatis distinctio quasi, delectus illo.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aut consequuntur. Unde voluptas sint voluptatum accusantium ex impedit itaque cum et iste, incidunt ipsa, ducimus perspiciatis distinctio quasi, delectus illo.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aut consequuntur. Unde voluptas sint voluptatum accusantium ex impedit itaque cum et iste, incidunt ipsa, ducimus perspiciatis distinctio quasi, delectus illo.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aut consequuntur. Unde voluptas sint voluptatum accusantium ex impedit itaque cum et iste, incidunt ipsa, ducimus perspiciatis distinctio quasi, delectus illo.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aut consequuntur. Unde voluptas sint voluptatum accusantium ex impedit itaque cum et iste, incidunt ipsa, ducimus perspiciatis distinctio quasi, delectus illo.</p>
+        </div>
+      </div>
+    </div>
+    <!--about us section end-->
+    <!--footer section start-->
+      <footer class="text-white text-center text-lg-start to ">
+      <!-- Grid container -->
+      <div class="container p-4">
+          <!--Grid row-->
+      <div class="row mt-4">
+      <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">About company</h5>
+
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                voluptatum deleniti atque corrupti.
+              </p>
+
+              <p>
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.
+              </p>
+
+              <div class="mt-4">
+                <!-- Facebook -->
+                <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+                <!-- Dribbble -->
+                <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-tiktok"></i></a>
+                <!-- Twitter -->
+                <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                <!-- Google + -->
+                <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                <!-- Linkedin -->
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                <label class="form-label" for="formControlLg">Search</label>
+              </div>
+
+              <ul class="fa-ul" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Lot 4443, Jalan Tengah,<br>Kampung Sungai Danga,<br>81200,<br>,Johor Bahru, Johor.</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">jutawantaqwa@gmail.com</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+60 13 353 1208</span>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+              <table class="table text-center text-white">
+                <tbody class="fw-normal">
+                  <tr>
+                    <td>Mon - Thu:</td>
+                    <td>10am - 10pm</td>
+                  </tr>
+                  <tr>
+                    <td>Fri - Sat:</td>
+                    <td>10am - 10pm</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday:</td>
+                    <td>10am - 10pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(240, 248, 255, 0.226); color: black;">
+          © 2023 Copyright:
+          <a class="text-black" href="https://mdbootstrap.com/">DangaBiz.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+    <!-- End of .container -->
+        <!--footer section end-->
+
+    <!--jquery-->
+    <script src="js/jquery-3.7.0.js"></script>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--custom js-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
